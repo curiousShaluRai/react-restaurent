@@ -33,7 +33,7 @@ export default class RecommendedFood extends Component {
                     <div className="_2tcDp">
                         <div>
                             <div className="ft_i6">
-                                <div className="_2SyqU" itemprop="name">{restrent.name}</div>
+                                <div className="_2SyqU" itemProp="name">{restrent.name}</div>
                                 <div className="HwSGt">{restrent.address}</div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ export default class RecommendedFood extends Component {
                     <div className="_2tcDp">
                         <div>
                             <div className="ft_i6">
-                                <div className="_2SyqU" itemprop="name">{restrent.name}</div>
+                                <div className="_2SyqU" itemProp="name">{restrent.name}</div>
                                 <div className="HwSGt">{restrent.address}</div>
                             </div>
                         </div>
