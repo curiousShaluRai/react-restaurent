@@ -13,11 +13,7 @@ export default class FoodDetails extends Component {
           <div id="h-1950595611" className="_2dS-v">
               <h2 className="M_o7R _27PKo">Recommended</h2>
               <div className="_1bGRc">
-                  <div className="_2J3sY">
-                    <RecommendedFood restaurent={restaurent}/>
-                  </div>
-                  <div className="_2J3sY">
-                  </div>
+                <RecommendedFood restaurent={restaurent}/>
               </div>
               <div className="_1bGRc">
                   <div className="_2J3sY">
