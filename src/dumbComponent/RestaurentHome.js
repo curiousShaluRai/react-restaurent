@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
 import RestaurentDetails from "./RestaurentDetails"
+import FoodDetails from "./FoodDetails"
+import RestaurentFooterDetails from './RestaurentFooterDetais'
+import RestaurentFooter from './RestaurentFooter'
+
 const restaurent = [
 	{
-		"name": "The bowl company",
-		"address": "Continental, Indian, Pan-Asian",
+		"name": "Street Style Sriracha Veg Chowmein",
+		"address": "Blast From The Past",
 		"imgSrc": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/c1jsdi1bpio5n2wrvfhi",
 		"time": 39,
 		"price": 350,
 		"starRating": 4.4,
 	},
 	{
-		"name": "Pizza hut",
-		"address": "Continental, Indian, Pan-Asian",
+		"name": "Katsu Chicken and Thai Red Curry with Scallion Sticky Rice",
+		"address": "Blast From The Past",
 		"imgSrc": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/vrangc3bsqlnfbcnnpdd",
 		"time": 39,
-		"price": 350,
+		"price": 309,
 		"starRating": 4.4,
 	},
 	{
@@ -48,7 +52,10 @@ export default class RestaurentHome extends Component {
     return (
       <div className="App">
         Welcome to my restaurent
-				<RestaurentDetails restaurent={restaurent}/>
+				<RestaurentDetails/>
+				<FoodDetails  restaurent={restaurent} />
+				<RestaurentFooterDetails />
+				<RestaurentFooter />
       </div>
     );
   }
